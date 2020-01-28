@@ -1,5 +1,3 @@
-
-
 insert into @cdm_schema.measurement
 (
 measurement_id,
@@ -36,7 +34,7 @@ value_as_concept_id,
 unit_concept_id,
 range_low,
 range_high,
-provider_id,
+cast(null as float) provider_id,
 visit_occurrence_id,
 visit_detail_id,
 measurement_source_value,
