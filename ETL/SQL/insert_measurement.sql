@@ -76,7 +76,7 @@ cast(null as float),
 0,
 0,
 cast(null as float),
-cast(null as float)
+cast(null as float),
 cast(null as float),
 (select fv.visit_occurrence_id_new from final_visit_ids fv
   where fv.encounter_id = o.encounter) visit_occurrence_id,
